@@ -55,6 +55,7 @@ void palin(string s)
             {
                 if(i-1==size-1-j+1) {
                     break;
+                    
                 }
                 lsize[i][j] = lsize[i-1][j-1]+1;
                 path[i][j] = ARC;
