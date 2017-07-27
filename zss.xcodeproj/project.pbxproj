@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181FFA501E4AEDC500811DA8 /* createTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 181FFA4F1E4AEDC500811DA8 /* createTree.cpp */; };
+		18773C901EB1A77D00CC2508 /* GameTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18773C8F1EB1A77D00CC2508 /* GameTest.cpp */; };
+		18992C061E24BA8200763620 /* CLRSTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18992C051E24BA8200763620 /* CLRSTest.cpp */; };
+		18992C081E25FCCA00763620 /* DPTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18992C071E25FCCA00763620 /* DPTest.cpp */; };
 		189C29BE1DE1429700E0439F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 189C29BD1DE1429700E0439F /* main.cpp */; };
+		18CAF7521E9E2D6D00F29212 /* GraphicsTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18CAF7511E9E2D6D00F29212 /* GraphicsTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		181FFA4F1E4AEDC500811DA8 /* createTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = createTree.cpp; sourceTree = "<group>"; };
+		18773C8F1EB1A77D00CC2508 /* GameTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameTest.cpp; sourceTree = "<group>"; };
+		18992C051E24BA8200763620 /* CLRSTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLRSTest.cpp; sourceTree = "<group>"; };
+		18992C071E25FCCA00763620 /* DPTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DPTest.cpp; sourceTree = "<group>"; };
 		189C29BA1DE1429700E0439F /* zss */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zss; sourceTree = BUILT_PRODUCTS_DIR; };
 		189C29BD1DE1429700E0439F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18CAF7511E9E2D6D00F29212 /* GraphicsTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,7 @@
 		189C29B11DE1429600E0439F = {
 			isa = PBXGroup;
 			children = (
+				18CAF7511E9E2D6D00F29212 /* GraphicsTest.cpp */,
 				189C29BC1DE1429700E0439F /* zss */,
 				189C29BB1DE1429700E0439F /* Products */,
 			);
@@ -58,6 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				189C29BD1DE1429700E0439F /* main.cpp */,
+				18992C051E24BA8200763620 /* CLRSTest.cpp */,
+				18992C071E25FCCA00763620 /* DPTest.cpp */,
+				181FFA4F1E4AEDC500811DA8 /* createTree.cpp */,
+				18773C8F1EB1A77D00CC2508 /* GameTest.cpp */,
 			);
 			path = zss;
 			sourceTree = "<group>";
@@ -119,7 +134,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18992C081E25FCCA00763620 /* DPTest.cpp in Sources */,
+				18CAF7521E9E2D6D00F29212 /* GraphicsTest.cpp in Sources */,
 				189C29BE1DE1429700E0439F /* main.cpp in Sources */,
+				18992C061E24BA8200763620 /* CLRSTest.cpp in Sources */,
+				181FFA501E4AEDC500811DA8 /* createTree.cpp in Sources */,
+				18773C901EB1A77D00CC2508 /* GameTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +266,7 @@
 				189C29C31DE1429700E0439F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
